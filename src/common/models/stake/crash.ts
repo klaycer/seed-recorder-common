@@ -24,7 +24,7 @@ export interface StakeCrashActiveBet {
 }
 
 export interface StakeCrashBetUser extends StakeCrashUser {
-  activeCrashBet: StakeCrashActiveBet
+  activeCrashBet: StakeCrashActiveBet;
 }
 
 export interface StakeCrashLeaderboard {

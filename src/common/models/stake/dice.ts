@@ -1,4 +1,4 @@
-import { StakeDefault, StakeDefaultState, StakeDefaultUser } from "./default";
+import { StakeDefault, StakeDefaultState, StakeDefaultUser } from './default';
 
 export interface StakeDiceState extends StakeDefaultState {
   condition: string;

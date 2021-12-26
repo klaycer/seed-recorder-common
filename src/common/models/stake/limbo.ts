@@ -1,4 +1,4 @@
-import { StakeDefaultState, StakeDefaultUser, StakeDefault } from "./default";
+import { StakeDefaultState, StakeDefaultUser, StakeDefault } from './default';
 
 export interface StakeLimboState extends StakeDefaultState {
   multiplierTarget: number;
