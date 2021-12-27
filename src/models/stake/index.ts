@@ -139,5 +139,3 @@ export class StakeDB extends Dexie {
       .then(res => res);
   };
 }
-
-export const DB = new StakeDB();
