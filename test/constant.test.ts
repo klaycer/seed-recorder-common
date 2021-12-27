@@ -1,7 +1,7 @@
-import { Constant } from '../src';
+import { DBNAME } from '../src';
 
 describe('constant', () => {
   it('DB Name defined', () => {
-    expect(Constant.DBNAME).toEqual('SeedRecorder');
+    expect(DBNAME).toEqual('SeedRecorder');
   });
 });
